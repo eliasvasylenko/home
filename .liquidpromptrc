@@ -27,11 +27,10 @@ precmd_liquidprompt() {
 
 precmd() {
   precmd_liquidprompt
-
   _lp_set_prompt
+
   print -P $PS1 $RPS1
 
-  unset LP_PS1_FILE
   LP_PS1="${LP_MARK}"
   _lp_set_prompt
 }
