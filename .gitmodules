@@ -1,3 +1,9 @@
 [submodule ".zim"]
 	path = .zim
 	url = git@github.com:eliasvasylenko/zim
+[submodule "workspaces/uk.co.strangeskies"]
+	path = workspaces/uk.co.strangeskies
+	url = git@github.com:eliasvasylenko/uk.co.strangeskies
+[submodule "workspaces/uk.co.strangeskies.modabi"]
+	path = workspaces/uk.co.strangeskies.modabi
+	url = git@github.com:eliasvasylenko/uk.co.strangeskies.modabi

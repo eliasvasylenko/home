@@ -1,0 +1,23 @@
+[user]
+	name = Elias N Vasylenko
+	email = eliasvasylenko@gmail.com
+[push]
+	default = simple
+[credential]
+	helper = cache --timeout=3600
+
+[url "https://github.com/"]
+	insteadOf = gh:
+[url "git@github.com:"]
+	insteadOf = gh-ssh:
+
+[url "https://gist.github.com/"]
+	insteadOf = gist:
+[url "git@gist.github.com:"]
+	insteadOf = gist-ssh:
+
+[url "https://bitbucket.org/"]
+	insteadOf = bb:
+[url "git@bitbucket.org:"]
+	insteadOf = bb-ssh:
+
