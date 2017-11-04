@@ -14,7 +14,7 @@ LP_PS1="${LP_PS1}${LP_VCS}"
 LP_PS1="${LP_PS1}${LP_RUNTIME}${LP_ERR}"
 
 # add full width line
-LP_PS1="${PINK}%F{211}"$'${(r:$COLUMNS::\u2500:)}\r$(tput cuf1)'"%f ${LP_PS1} "
+LP_PS1="%F{211}$(printf "%${COLUMNS}s" | sed "s/ /$(echo -ne '\u2501')/g")\r$(tput cuf1)%f ${LP_PS1} "
 
 # "invisible" parts
 # Get the current prompt on the fly and make it a title
