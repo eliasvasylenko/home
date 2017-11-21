@@ -1,2 +1,2 @@
-source ./.zshenv
+source ~/.zshenv
 
