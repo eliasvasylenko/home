@@ -11,8 +11,8 @@
 # Select what modules you would like enabled.
 # The second line of modules may depend on options set by modules in the first line.
 # These dependencies are noted on the respective module's README.md.
-zmodules=(directory environment git history input utility meta custom \
-          syntax-highlighting history-substring-search prompt completion)
+zmodules=(directory environment git history input utility custom \
+          syntax-highlighting history-substring-search prompt completion autosuggestions)
 
 
 ###################
@@ -70,7 +70,7 @@ ztermtitle='%n@%m:%~'
 #   https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/docs/highlighters.md
 # For (u)rxvt, termite and gnome-terminal users,
 # removing the 'cursor' highlighter will fix the disappearing cursor problem
-zhighlighters=(main brackets cursor)
+zhighlighters=(main brackets)
 
 
 #
@@ -102,8 +102,8 @@ zhighlighters=(main brackets cursor)
 # Select what modules you would like enabled.
 # The second line of modules may depend on options set by modules in the first line.
 # These dependencies are noted on the respective module's README.md.
-zmodules=(directory environment git history input utility meta custom \
-          syntax-highlighting history-substring-search prompt completion fasd)
+zmodules=(directory environment git history input utility custom \
+          syntax-highlighting history-substring-search prompt completion fasd autosuggestions)
 
 
 ###################
@@ -161,7 +161,7 @@ ztermtitle='%n@%m:%~'
 #   https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/docs/highlighters.md
 # For (u)rxvt, termite and gnome-terminal users,
 # removing the 'cursor' highlighter will fix the disappearing cursor problem
-zhighlighters=(main brackets cursor)
+zhighlighters=(main brackets)
 
 
 #
