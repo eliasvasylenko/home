@@ -8,3 +8,4 @@ if [[ -s ${ZDOTDIR:-${HOME}}/.zim/init.zsh ]]; then
 fi
 
 source /usr/share/nvm/init-nvm.sh
+export PATH="${PATH}:/home/.local/bin"
